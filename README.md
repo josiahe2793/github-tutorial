@@ -30,3 +30,17 @@ When ever working on a project the main things you will be doing will be as foll
 
 ---
 ## Rolling Back Changes
+Although it is tricky it is infact possible to undo many commandes that you give to Git like the following: 
+* Edits 
+* `add`
+* `commit`
+* `push`
+
+##### To undo edits to the project project
+First you
+##### To undo a `add` command
+First you
+##### To undo a `commit` command
+First you
+##### To undo a `push` command
+First you have to
