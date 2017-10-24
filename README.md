@@ -23,10 +23,14 @@ it will be increbibly difficult to work effectively and you wont be able to `pus
 ## Workflow & Commands
 When ever working on a project the main things you will be doing will be as follows:
 * Edit 
-* `add` file to the staging area
-* `commit` file to the changes made 
-* then finally `push` changes to your online GitHub repository 
-
+* `git add file.md` will add the file to the stage to be committed
+* `git add.` will add all changed files to your current/entire directory
+* `git add --all` will include all changes made, including deleted files
+* `git commit -m message` takes a snapshot of the files on stage and the message should describe what you chnaged in the snapshot
+* `git push -u origin master` will push your commits onto your repo in git
+* `git status` shows which files are set to be committed
+* `git log` shows a list of all your previous commits which is used to keep track of your work
+* `git diff` shows you the difference between your current code and all of your previous commits
 
 ---
 ## Rolling Back Changes
@@ -48,3 +52,6 @@ Lets say you just commited a file to changes and it was a mistake. You can write
 
 ##### To undo a `push` command to go back to after you edited the file
 Lets say you edit, add, commit and then push your changes and you relize a mistake  you can write `git reset HEAD-1` to go back to after you wrote edits to the file. 
+
+
+### Reviewed by Jayden Weston
