@@ -48,3 +48,6 @@ Lets say you just commited a file to changes and it was a mistake. You can write
 
 ##### To undo a `push` command to go back to after you edited the file
 Lets say you edit, add, commit and then push your changes and you relize a mistake  you can write `git reset HEAD-1` to go back to after you wrote edits to the file. 
+
+
+### Reviewed by Jayden Weston
