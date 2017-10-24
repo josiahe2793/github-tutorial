@@ -23,10 +23,14 @@ it will be increbibly difficult to work effectively and you wont be able to `pus
 ## Workflow & Commands
 When ever working on a project the main things you will be doing will be as follows:
 * Edit 
-* `git add file-name` will add the file you edited to the stage to be committed
-* `git add.` will add all files changed to your current/entire repository, while `git add --all` will include all changes made, including deleted files
-* `git commit -m "message"`will take a snapshot of the files(which should green) on stage. The message should describe what you did/ whqt you changed in the snapshot 
-* `git push -u origin master` is used to push your commits onto your repo in github
+* `git add file.md` will add the file to the stage to be committed
+* `git add.` will add all changed files to your current/entire directory
+* `git add --all` will include all changes made, including deleted files
+* `git commit -m message` takes a snapshot of the files on stage and the message should describe what you chnaged in the snapshot
+* `git push -u origin master` will push your commits onto your repo in git
+* `git status` shows which files are set to be committed
+* `git log` shows a list of all your previous commits which is used to keep track of your work
+* `git diff` shows you the difference between your current code and all of your previous commits
 
 ---
 ## Rolling Back Changes
