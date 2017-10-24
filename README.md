@@ -23,10 +23,10 @@ it will be increbibly difficult to work effectively and you wont be able to `pus
 ## Workflow & Commands
 When ever working on a project the main things you will be doing will be as follows:
 * Edit 
-* `add` file to the staging area
-* `commit` file to the changes made 
-* then finally `push` changes to your online GitHub repository 
-
+* `git add file-name` will add the file you edited to the stage to be committed
+* `git add.` will add all files changed to your current/entire repository, while `git add --all` will include all changes made, including deleted files
+* `git commit -m "message"`will take a snapshot of the files(which should green) on stage. The message should describe what you did/ whqt you changed in the snapshot 
+* `git push -u origin master` is used to push your commits onto your repo in github
 
 ---
 ## Rolling Back Changes
